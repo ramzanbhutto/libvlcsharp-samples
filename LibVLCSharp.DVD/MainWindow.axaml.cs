@@ -5,6 +5,7 @@ using Avalonia.Controls.Primitives;
 using Avalonia.Platform.Storage;
 using LibVLCSharp.Avalonia;
 using LibVLCSharp.Shared;
+using System.Threading.Tasks;
 
 namespace LibVLCSharp.DVD;
 
@@ -68,16 +69,12 @@ public partial class MainWindow : Window
   }
 
   private void OnTimeChanged(object? sender, MediaPlayerTimeChangedEventArgs e){
-    if(mediaPlayer is null || mediaPlayer.Length<=0 || userDragging) return;
+    var player=mediaPlayer;
+    if(player is null || player.Length<=0 || userDragging) return;
      global::Avalonia.Threading.Dispatcher.UIThread.Post(() =>
         {
-          TimeSlider.Value= (double)e.Time/mediaPlayer.Length*100;
+          TimeSlider.Value= (double)e.Time/player.Length*100;
         });
-  }
-
-  private void OnTimeSliderChanged(object? sender, PointerCaptureLostEventArgs e){
-    if(mediaPlayer is null || mediaPlayer.Length<=0) return;
-    mediaPlayer.Time= (long)(TimeSlider.Value/100 *mediaPlayer.Length);
   }
 
   private void OnVolumeChanged(object? sender, RangeBaseValueChangedEventArgs e){
@@ -95,6 +92,7 @@ public partial class MainWindow : Window
 
   private void OnWindowClosing(object? sender, WindowClosingEventArgs e){
     mediaPlayer?.Stop();
+    Task.Delay(50).Wait(); // 50 milliseconds delay
     mediaPlayer?.Dispose();
     libVLC.Dispose();
   }
