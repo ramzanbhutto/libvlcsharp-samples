@@ -1,0 +1,97 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Ad-Hoc" />
+    <BuildType Name="AppStore" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="Any CPU" />
+    <Platform Name="iPhone" />
+    <Platform Name="iPhoneSimulator" />
+  </Configurations>
+  <Project Path="Chromecast/Chromecast.Android/Chromecast.Android.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+    <Deploy />
+  </Project>
+  <Project Path="Chromecast/Chromecast.iOS/Chromecast.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+  <Project Path="Chromecast/Chromecast/Chromecast.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground.Android/ForegroundBackground.Android.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+    <Deploy />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground.iOS/ForegroundBackground.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground/ForegroundBackground.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures.Android/Gestures.Android.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+    <Deploy />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures.iOS/Gestures.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures/Gestures.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+  <Project Path="LibVLCSharp.PHP/LibVLCSharp.PHP.msbuildproj" Type="13b669be-bb05-4ddf-9536-439f39a36129">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+    <Platform Project="AnyCPU" />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic.Android/PulseMusic.Android.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+    <Deploy />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic.iOS/PulseMusic.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic/PulseMusic.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+  <Project Path="RecordHLS/RecordHLS.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic.Android/VideoMosaic.Android.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+    <Deploy />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic.iOS/VideoMosaic.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic/VideoMosaic.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+</Solution>

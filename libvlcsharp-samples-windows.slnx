@@ -1,0 +1,638 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Ad-Hoc" />
+    <BuildType Name="AppStore" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="iPhone" />
+    <Platform Name="iPhoneSimulator" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/LocalNetwork/">
+    <Project Path="LocalNetwork/LocalNetwork.Android/LocalNetwork.Android.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+      <BuildType Solution="AppStore|Any CPU" Project="Release" />
+      <BuildType Solution="AppStore|ARM" Project="Debug" />
+      <BuildType Solution="AppStore|ARM64" Project="Debug" />
+      <BuildType Solution="AppStore|iPhone" Project="Release" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="AppStore|x64" Project="Release" />
+      <BuildType Solution="AppStore|x86" Project="Debug" />
+      <Deploy />
+    </Project>
+    <Project Path="LocalNetwork/LocalNetwork.iOS/LocalNetwork.iOS.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+      <BuildType Solution="AppStore|Any CPU" Project="Release" />
+      <BuildType Solution="AppStore|ARM" Project="Debug" />
+      <BuildType Solution="AppStore|ARM64" Project="Debug" />
+      <BuildType Solution="AppStore|iPhone" Project="Release" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="AppStore|x64" Project="Release" />
+      <BuildType Solution="AppStore|x86" Project="Debug" />
+      <Platform Solution="*|Any CPU" Project="iPhone" />
+      <Platform Solution="*|iPhone" Project="iPhone" />
+      <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+      <Platform Solution="*|x64" Project="iPhone" />
+      <Platform Solution="*|x86" Project="iPhoneSimulator" />
+      <Platform Solution="Ad-Hoc|ARM" Project="iPhone" />
+      <Platform Solution="Ad-Hoc|ARM64" Project="iPhone" />
+      <Platform Solution="AppStore|ARM" Project="iPhone" />
+      <Platform Solution="AppStore|ARM64" Project="iPhone" />
+      <Platform Solution="Debug|ARM" Project="iPhone" />
+      <Platform Solution="Debug|ARM64" Project="iPhone" />
+      <Platform Solution="Release|ARM" Project="iPhoneSimulator" />
+      <Platform Solution="Release|ARM64" Project="iPhoneSimulator" />
+      <Build Solution="Debug|Any CPU" Project="false" />
+      <Build Solution="Debug|ARM" Project="false" />
+      <Build Solution="Debug|ARM64" Project="false" />
+      <Build Solution="Debug|x64" Project="false" />
+      <Build Solution="Debug|x86" Project="false" />
+      <Build Solution="Release|Any CPU" Project="false" />
+      <Build Solution="Release|ARM" Project="false" />
+      <Build Solution="Release|ARM64" Project="false" />
+      <Build Solution="Release|x64" Project="false" />
+      <Build Solution="Release|x86" Project="false" />
+      <Deploy Solution="Ad-Hoc|x86" />
+      <Deploy Solution="AppStore|x86" />
+    </Project>
+    <Project Path="LocalNetwork/LocalNetwork.WPF/LocalNetwork.WPF.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+      <BuildType Solution="AppStore|Any CPU" Project="Release" />
+      <BuildType Solution="AppStore|ARM" Project="Debug" />
+      <BuildType Solution="AppStore|ARM64" Project="Debug" />
+      <BuildType Solution="AppStore|iPhone" Project="Release" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="AppStore|x64" Project="Release" />
+      <BuildType Solution="AppStore|x86" Project="Debug" />
+    </Project>
+    <Project Path="LocalNetwork/LocalNetwork/LocalNetwork.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+      <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+      <BuildType Solution="AppStore|ARM" Project="Release" />
+      <BuildType Solution="AppStore|ARM64" Project="Release" />
+      <BuildType Solution="AppStore|iPhone" Project="Debug" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+      <BuildType Solution="AppStore|x64" Project="Debug" />
+      <BuildType Solution="AppStore|x86" Project="Release" />
+    </Project>
+  </Folder>
+  <Folder Name="/MinimalPlayback/">
+    <Project Path="MinimalPlayback/LibVLCSharp.Android/LibVLCSharp.Android.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+      <BuildType Solution="AppStore|Any CPU" Project="Release" />
+      <BuildType Solution="AppStore|ARM" Project="Debug" />
+      <BuildType Solution="AppStore|ARM64" Project="Debug" />
+      <BuildType Solution="AppStore|iPhone" Project="Release" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="AppStore|x64" Project="Release" />
+      <BuildType Solution="AppStore|x86" Project="Debug" />
+      <Deploy />
+    </Project>
+    <Project Path="MinimalPlayback/LibVLCSharp.UWP/LibVLCSharp.UWP.Sample.csproj">
+      <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+      <BuildType Solution="AppStore|*" Project="Debug" />
+      <Platform Solution="*|Any CPU" Project="x86" />
+      <Platform Solution="*|ARM" Project="ARM" />
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|iPhone" Project="x86" />
+      <Platform Solution="*|iPhoneSimulator" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Build Solution="Debug|Any CPU" Project="false" />
+      <Build Solution="Debug|iPhone" Project="false" />
+      <Build Solution="Debug|iPhoneSimulator" Project="false" />
+      <Build Solution="Release|Any CPU" Project="false" />
+      <Build Solution="Release|iPhone" Project="false" />
+      <Build Solution="Release|iPhoneSimulator" Project="false" />
+      <Deploy Solution="*|ARM" />
+      <Deploy Solution="*|ARM64" />
+      <Deploy Solution="*|x64" />
+      <Deploy Solution="*|x86" />
+      <Deploy Solution="Ad-Hoc|Any CPU" />
+      <Deploy Solution="Ad-Hoc|iPhone" />
+      <Deploy Solution="Ad-Hoc|iPhoneSimulator" />
+      <Deploy Solution="AppStore|Any CPU" />
+      <Deploy Solution="AppStore|iPhone" />
+      <Deploy Solution="AppStore|iPhoneSimulator" />
+    </Project>
+    <Project Path="MinimalPlayback/LibVLCSharp.WPF.Sample/LibVLCSharp.WPF.Sample.csproj">
+      <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+      <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+      <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+      <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+      <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+      <BuildType Solution="AppStore|Any CPU" Project="Release" />
+      <BuildType Solution="AppStore|ARM" Project="Debug" />
+      <BuildType Solution="AppStore|ARM64" Project="Debug" />
+      <BuildType Solution="AppStore|iPhone" Project="Release" />
+      <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+      <BuildType Solution="AppStore|x64" Project="Release" />
+      <BuildType Solution="AppStore|x86" Project="Debug" />
+    </Project>
+  </Folder>
+  <Project Path="AudioCallbacks/AudioCallbacks.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Chromecast/Chromecast.Android/Chromecast.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="Chromecast/Chromecast.iOS/Chromecast.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhoneSimulator" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="Chromecast/Chromecast/Chromecast.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground.Android/ForegroundBackground.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground.iOS/ForegroundBackground.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhoneSimulator" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="ForegroundBackground/ForegroundBackground/ForegroundBackground.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|*" Project="Release" />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures.Android/Gestures.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures.iOS/Gestures.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhone" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="Gestures/Gestures/Gestures/Gestures.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="LibVLCFadeAnimation/LibVLCFadeAnimation.csproj">
+    <BuildType Project="?" />
+    <Platform Project="?" />
+    <Build Project="false" />
+  </Project>
+  <Project Path="LibVLCSharp.VB/LibVLCSharp.VB.vbproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="MediaElement/MediaElement.Android/MediaElement.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="MediaElement/MediaElement.iOS/MediaElement.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhone" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="MediaElement/MediaElement/MediaElement.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="MediaElement/MediaElementCustomization/MediaElementCustomization.Android/MediaElementCustomization.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="MediaElement/MediaElementCustomization/MediaElementCustomization.iOS/MediaElementCustomization.iOS.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Platform Solution="*|Any CPU" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM" Project="iPhone" />
+    <Platform Solution="*|ARM64" Project="iPhone" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhoneSimulator" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="Debug|Any CPU" Project="false" />
+    <Build Solution="Debug|ARM" Project="false" />
+    <Build Solution="Debug|ARM64" Project="false" />
+    <Build Solution="Debug|x64" Project="false" />
+    <Build Solution="Debug|x86" Project="false" />
+    <Build Solution="Release|Any CPU" Project="false" />
+    <Build Solution="Release|ARM" Project="false" />
+    <Build Solution="Release|ARM64" Project="false" />
+    <Build Solution="Release|x64" Project="false" />
+    <Build Solution="Release|x86" Project="false" />
+  </Project>
+  <Project Path="MediaElement/MediaElementCustomization/MediaElementCustomization/MediaElementCustomization.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+  </Project>
+  <Project Path="PreviewThumbnailExtractor.Skia/PreviewThumbnailExtractor.Skia.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="PreviewThumbnailExtractor/PreviewThumbnailExtractor.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic.Android/PulseMusic.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic.iOS/PulseMusic.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhoneSimulator" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="PulseMusic/src/PulseMusic/PulseMusic/PulseMusic.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="RecordHLS/RecordHLS.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+  </Project>
+  <Project Path="ScreenRecorder/ScreenRecorder.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="Speech/Speech.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic.Android/VideoMosaic.Android.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Debug" />
+    <BuildType Solution="AppStore|Any CPU" Project="Release" />
+    <BuildType Solution="AppStore|ARM" Project="Debug" />
+    <BuildType Solution="AppStore|ARM64" Project="Debug" />
+    <BuildType Solution="AppStore|iPhone" Project="Release" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Release" />
+    <BuildType Solution="AppStore|x64" Project="Debug" />
+    <BuildType Solution="AppStore|x86" Project="Debug" />
+    <Deploy />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic.iOS/VideoMosaic.iOS.csproj">
+    <Platform Solution="*|Any CPU" Project="iPhone" />
+    <Platform Solution="*|ARM" Project="iPhoneSimulator" />
+    <Platform Solution="*|ARM64" Project="iPhoneSimulator" />
+    <Platform Solution="*|iPhone" Project="iPhone" />
+    <Platform Solution="*|iPhoneSimulator" Project="iPhoneSimulator" />
+    <Platform Solution="*|x64" Project="iPhoneSimulator" />
+    <Platform Solution="*|x86" Project="iPhoneSimulator" />
+    <Build Solution="*|Any CPU" Project="false" />
+    <Build Solution="*|ARM" Project="false" />
+    <Build Solution="*|ARM64" Project="false" />
+    <Build Solution="*|x64" Project="false" />
+    <Build Solution="*|x86" Project="false" />
+  </Project>
+  <Project Path="VideoMosaic/VideoMosaic/VideoMosaic.csproj">
+    <BuildType Solution="Ad-Hoc|Any CPU" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|ARM" Project="Release" />
+    <BuildType Solution="Ad-Hoc|ARM64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|iPhone" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="Ad-Hoc|x64" Project="Release" />
+    <BuildType Solution="Ad-Hoc|x86" Project="Release" />
+    <BuildType Solution="AppStore|Any CPU" Project="Debug" />
+    <BuildType Solution="AppStore|ARM" Project="Release" />
+    <BuildType Solution="AppStore|ARM64" Project="Release" />
+    <BuildType Solution="AppStore|iPhone" Project="Debug" />
+    <BuildType Solution="AppStore|iPhoneSimulator" Project="Debug" />
+    <BuildType Solution="AppStore|x64" Project="Release" />
+    <BuildType Solution="AppStore|x86" Project="Release" />
+  </Project>
+  <Project Path="WebRTCAndLibVLC/WebRTCAndLibVLC.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+  <Project Path="YoutubePlayback/YoutubePlayback.csproj">
+    <BuildType Solution="Ad-Hoc|*" Project="Debug" />
+    <BuildType Solution="AppStore|*" Project="Debug" />
+  </Project>
+</Solution>
